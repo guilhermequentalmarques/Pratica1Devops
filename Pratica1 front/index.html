@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <h1>FlexBox (container)</h1> <!--Estudando estrutura do flex-container e display -->
+    <h2>Estrutura: flex-container e display</h2>
+    <div class="flex-container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+    <br>
+    <br>
+    <div class="flex-container2">
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+    </div>
+    <br>
+    <br>
+    <div class="flex-container2">
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+    </div>
+    <hr>
+    <hr>
+    <h2>Justify Content </h2>
+    <h3>Center</h3>
+    <div class="flex-container3 center">
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+    </div>
+    <br>
+    <h3>flex-start (padrao)</h3>
+    <div class="flex-container3">
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+    </div>
+    <br>
+    <h3>flex-end</h3>
+    <div class="flex-container3 end">
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+    </div>
+    <br>
+    <h3>space between</h3>
+    <div class="flex-container3 between">
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+    </div>
+    <br>
+    <h3>space around</h3>
+    <div class="flex-container3 around">
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+    </div>
+    <br>
+    <h3>space evenly</h3>
+    <div class="flex-container3 evenly">
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+        <div class="quadrado"></div>
+    </div>
+    <hr>
+    <hr>
+    <h2>Vertical</h2>
+    <div class="flex-container4 center-v">
+        <div class="retangulo"></div>
+        <div class="retangulo2"></div>
+        <div class="retangulo3"></div>
+        <div class="retangulo4"></div>
+        <div class="retangulo5"></div>
+    </div>
+    <h2>Flex-end</h2> <!--Estudando estrutura do flex-container e display -->
+    <div class="flex-container4 end-v">
+        <div class="retangulo"></div>
+        <div class="retangulo2"></div>
+        <div class="retangulo3"></div>
+        <div class="retangulo4"></div>
+        <div class="retangulo5"></div>
+    </div>
+    <h2>Flex-start</h2>
+    <div class="flex-container4 start-v">
+        <div class="retangulo"></div>
+        <div class="retangulo2"></div>
+        <div class="retangulo3"></div>
+        <div class="retangulo4"></div>
+        <div class="retangulo5"></div>
+    </div>
+    <h2>Flex-stratch</h2>
+    <div class="flex-container4 stratch-v">
+        <div class="retangulo"></div>
+        <div class="retangulo2"></div>
+        <div class="retangulo3"></div>
+        <div class="retangulo4"></div>
+        <div class="retangulo5"></div>
+    </div>
+    <h2>Baseline</h2>
+    <div class="flex-container4 baseline">
+        <div class="retangulo" style="padding-top: 70px;">Lorem</div>
+        <div class="retangulo2">Lorem</div>
+        <div class="retangulo3" style="padding-top:20px ;">Lorem</div>
+        <div class="retangulo4">Lorem</div>
+        <div class="retangulo5" style="padding-top: 50px;">Lorem</div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <h2>Flex-wrap</h2> <!--Estudando estrutura do flex-wrap -->
+    <h3>Nowrap padrão</h3>
+    <div class="flex-container">
+        <div class="quadrado">1</div>
+        <div class="quadrado">2</div>
+        <div class="quadrado">3</div>
+        <div class="quadrado">4</div>
+        <div class="quadrado">5</div>
+        <div class="quadrado">6</div>
+        <div class="quadrado">7</div>
+        <div class="quadrado">8</div>
+        <div class="quadrado">9</div>
+        <div class="quadrado">10</div>
+        <div class="quadrado">11</div>
+        <div class="quadrado">12</div>
+        <div class="quadrado">13</div>
+    </div>
+    <h3>Nowrap padrão</h3>
+    <div class="flex-container wrap">
+        <div class="quadrado">1</div>
+        <div class="quadrado">2</div>
+        <div class="quadrado">3</div>
+        <div class="quadrado">4</div>
+        <div class="quadrado">5</div>
+        <div class="quadrado">6</div>
+        <div class="quadrado">7</div>
+        <div class="quadrado">8</div>
+        <div class="quadrado">9</div>
+        <div class="quadrado">10</div>
+        <div class="quadrado">11</div>
+        <div class="quadrado">12</div>
+        <div class="quadrado">13</div>
+    </div>
+    <h3>wrap reverse padrão</h3>
+    <div class="flex-container wrap-reverse">
+        <div class="quadrado">1</div>
+        <div class="quadrado">2</div>
+        <div class="quadrado">3</div>
+        <div class="quadrado">4</div>
+        <div class="quadrado">5</div>
+        <div class="quadrado">6</div>
+        <div class="quadrado">7</div>
+        <div class="quadrado">8</div>
+        <div class="quadrado">9</div>
+        <div class="quadrado">10</div>
+        <div class="quadrado">11</div>
+        <div class="quadrado">12</div>
+        <div class="quadrado">13</div>
+    </div>
+    <hr />
+    <hr />
+    <h2>Flex-direction</h2> <!--Estudando estrutura do flex-direction -->
+    <h3>Row</h3>
+    <div class="flex-container ">
+        <div class="quadrado">1</div>
+        <div class="quadrado">2</div>
+        <div class="quadrado">3</div>
+        <div class="quadrado">4</div>
+        <div class="quadrado">5</div>
+        <div class="quadrado">6</div>
+        <div class="quadrado">7</div>
+        <div class="quadrado">8</div>
+        <div class="quadrado">9</div>
+        <div class="quadrado">10</div>
+        <div class="quadrado">11</div>
+        <div class="quadrado">12</div>
+        <div class="quadrado">13</div>
+    </div>
+    <h3>Row-reverse</h3>
+    <div class="flex-container row-reverse">
+        <div class="quadrado">1</div>
+        <div class="quadrado">2</div>
+        <div class="quadrado">3</div>
+        <div class="quadrado">4</div>
+        <div class="quadrado">5</div>
+        <div class="quadrado">6</div>
+        <div class="quadrado">7</div>
+        <div class="quadrado">8</div>
+        <div class="quadrado">9</div>
+        <div class="quadrado">10</div>
+        <div class="quadrado">11</div>
+        <div class="quadrado">12</div>
+        <div class="quadrado">13</div>
+    </div>
+    <h3>column</h3>
+    <div class="flex-container column">
+        <div class="quadrado">1</div>
+        <div class="quadrado">2</div>
+        <div class="quadrado">3</div>
+        <div class="quadrado">4</div>
+        <div class="quadrado">5</div>
+        <div class="quadrado">6</div>
+        <div class="quadrado">7</div>
+        <div class="quadrado">8</div>
+        <div class="quadrado">9</div>
+        <div class="quadrado">10</div>
+        <div class="quadrado">11</div>
+        <div class="quadrado">12</div>
+        <div class="quadrado">13</div>
+    </div>
+    <h3>column reverse</h3> <!--Estudando estrutura do column reverse -->
+    <div class="flex-container column-reverse">
+        <div class="quadrado">1</div>
+        <div class="quadrado">2</div>
+        <div class="quadrado">3</div>
+        <div class="quadrado">4</div>
+        <div class="quadrado">5</div>
+        <div class="quadrado">6</div>
+        <div class="quadrado">7</div>
+        <div class="quadrado">8</div>
+        <div class="quadrado">9</div>
+        <div class="quadrado">10</div>
+        <div class="quadrado">11</div>
+        <div class="quadrado">12</div>
+        <div class="quadrado">13</div>
+    </div>
+    <h2>Flex-flow (direction e wrap</h2>
+    <div class="flex-container reverse-wrap">
+        <div class="quadrado">1</div>
+        <div class="quadrado">2</div>
+        <div class="quadrado">3</div>
+        <div class="quadrado">4</div>
+        <div class="quadrado">5</div>
+        <div class="quadrado">6</div>
+        <div class="quadrado">7</div>
+        <div class="quadrado">8</div>
+        <div class="quadrado">9</div>
+        <div class="quadrado">10</div>
+        <div class="quadrado">11</div>
+        <div class="quadrado">12</div>
+        <div class="quadrado">13</div>
+    </div>
+</body>
+</html>
